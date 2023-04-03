@@ -33,17 +33,22 @@ const index = () => {
         <meta charSet='utf-8' />
         <title>Francisco Araujo</title>
       </Helmet>
-      <h1 className='text-5xl font-bold text-[#ebecf0]'>
+      <h1 className='text-5xl font-bold text-[#ebecf0]' data-aos='fade-up'>
         Hi! I am <br />
         <span className='bg-clip-text text-transparent bg-gradient-to-r from-teal-500 to-emerald-500'>
           Francisco Araujo
         </span>
       </h1>
-      <p className='mt-5 max-w-xl'>
+      <p className='mt-5 max-w-xl' data-aos='fade-up' data-aos-delay='300'>
         I am passionate about programming and always seeking to improve my
         skills and knowledge to provide the best possible solution.
       </p>
-      <div className='flex gap-7 justify-center mt-7 flex-wrap'>
+      <div
+        className='flex gap-7 justify-center mt-7 flex-wrap'
+        data-aos='zoom-in'
+        data-aos-easing='ease'
+        data-aos-delay='500'
+      >
         <a
           className='flex items-center gap-2 text-gray-400 hover:text-teal-300 transition-all'
           href='mailto:contacto@fjaraujo.com'

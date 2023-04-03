@@ -20,10 +20,10 @@ const index = () => {
     <footer className='bg-[#191B21]'>
       <div className='max-w-[1440px] mx-auto flex justify-between p-5'>
         <div className='flex justify-center items-center gap-2 text-sm'>
-          <img src={logo} alt='' className='h-7 inline-block' />©{' '}
+          <img src={logo} alt='' className='h-6 inline-block' />©{' '}
           {new Date().getFullYear()} - fjaraujo
         </div>
-        <div className='flex gap-5'>
+        <div className='flex gap-5 items-center'>
           <Icon
             to='https://www.instagram.com/fjarauj0/'
             title='Instagram'
