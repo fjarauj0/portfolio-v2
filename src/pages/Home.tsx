@@ -72,7 +72,7 @@ const index = () => {
         </a>
         <a
           className='flex items-center gap-2 text-gray-400 hover:text-teal-300 transition-all'
-          href='https://github.com/fjarauj0'
+          href='https://www.linkedin.com/in/fjarauj0/'
           target='_blank'
         >
           <svg
@@ -88,7 +88,7 @@ const index = () => {
         </a>
         <a
           className='flex items-center gap-2 text-gray-400 hover:text-teal-300 transition-all'
-          href='https://www.linkedin.com/in/fjarauj0/'
+          href='https://github.com/fjarauj0'
           target='_blank'
         >
           <svg
